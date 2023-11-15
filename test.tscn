@@ -1,6 +1,7 @@
-[gd_scene format=3 uid="uid://i8wenj8r4a7n"]
+[gd_scene load_steps=2 format=3 uid="uid://i8wenj8r4a7n"]
+
+[ext_resource type="PackedScene" uid="uid://88qflxitqj0u" path="res://player.tscn" id="1_x5143"]
 
 [node name="test" type="Node2D"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(577, 322)
+[node name="Player" parent="." instance=ExtResource("1_x5143")]
